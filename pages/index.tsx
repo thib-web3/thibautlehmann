@@ -1,10 +1,13 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import About from '../components/about/about'
 import Education from '../components/education/education'
 import Header from '../components/header/header'
+import Hobbies from '../components/hobbies/hobbies'
+import Links from '../components/links/links'
 import Navbar from '../components/navbar/navbar'
+import Projects from '../components/projects/projects'
+import Skills from '../components/skills/skills'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -20,6 +23,10 @@ const Home: NextPage = () => {
         <Header />
         <About />
         <Education />
+        <Projects />
+        <Skills />
+        <Hobbies />
+        <Links />
 
 
       </main>

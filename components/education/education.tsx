@@ -7,7 +7,7 @@ const Education: NextPage = () => {
     return (
         <div className={styles.container}>
             <h2 className={styles.title}>
-                About
+                Education
             </h2>
             <div className={styles.section}>
 
@@ -20,10 +20,27 @@ const Education: NextPage = () => {
                     </p>
                 </div>
             </div>
-            {/* <p className={styles.description}>
-                I’m Thibaut, a 20 years creative developer passionated about blockchain, from France. With 2 years of experience in web2, 1 year in web3,
-                I’m able to think and create scalable web3 decentralized applications.
-            </p> */}
+            <div className={styles.section}>
+
+                <div className={styles.left}>2020 - 2021</div>
+                <div className={styles.right}>
+                    <h3>Erasmus Exchange</h3>
+                    <p className={styles.description}>
+                        International studies in Lithuania following a general engineering curriculum in english.
+                    </p>
+                </div>
+            </div>
+            <div className={styles.section}>
+
+                <div className={styles.left}>2016 - 2019</div>
+                <div className={styles.right}>
+                    <h3>High school </h3>
+                    <p className={styles.description}>
+                        High school diploma (BAC scientific), with the option : science of the engineer.
+                    </p>
+                </div>
+            </div>
+
         </div>
     )
 }

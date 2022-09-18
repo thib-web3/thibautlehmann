@@ -8,11 +8,10 @@ const Navbar: NextPage = () => {
     return (
         <div className={styles.container}>
 
-            <Image src="/images/cb-reverse.png" alt="Logo" width={40} height={35} />
+            <a href="https://www.linkedin.com/in/thibaut-lehmann/" target="_blank" rel="noreferrer" className={styles.twitter}>
+                Contact me
+            </a>
             <div className={styles.buttons}>
-                <a href="https://www.linkedin.com/in/thibaut-lehmann/" target="_blank" rel="noreferrer" className={styles.twitter}>
-                    Contact me
-                </a>
                 <ConnectWallet />
             </div>
         </div>
