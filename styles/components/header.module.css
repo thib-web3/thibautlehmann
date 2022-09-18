@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.left {
+    border: 100px;
+    width: 130px;
+    height: 130px;
+    position: relative;
+}
