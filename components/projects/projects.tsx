@@ -32,8 +32,8 @@ const Projects: NextPage = () => {
                 </div>
             </div>
             <div className={styles.gap}></div>
-            <div className={styles.section}>
 
+            <div className={styles.section}>
                 <div className={styles.left}>Apr. 2022</div>
                 <div className={styles.right}>
                     <a href={'https://sparkies.io'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Sparkies")}>

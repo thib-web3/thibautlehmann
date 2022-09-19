@@ -12,4 +12,22 @@
     width: 130px;
     height: 130px;
     position: relative;
+    display: flex;
+}
+
+.right {
+
+    width: 100%;
+}
+
+.image {
+    width: 70px;
+    height: 70px;
+}
+
+@media screen and (min-width : 767px) {
+    .image {
+        width: 130px;
+        height: 130px;
+    }
 }

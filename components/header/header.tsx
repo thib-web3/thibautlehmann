@@ -6,10 +6,10 @@ import Image from 'next/image'
 const Header: NextPage = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.left}>
 
-                <Image width={150} height={150} src={'/images/thibaut-lehmann.png'} loading={"lazy"} />
-            </div>
+
+            <img className={styles.image} src={'/images/thibaut-lehmann.png'} loading={"lazy"} />
+
             <div className={styles.right}>
                 <h1>Thibaut Lehmann</h1>
                 <p>Full-stack Blockchain Developer</p>

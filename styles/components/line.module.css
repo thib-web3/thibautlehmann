@@ -10,12 +10,23 @@
 }
 
 .line1 {
-    left: -50px;
+    left: -1rem;
 }
 
 .line2 {
 
-    right: -50px;
+    right: -1rem;
+}
+
+@media screen and (min-width:767px) {
+    .line1 {
+        left: -50px;
+    }
+
+    .line2 {
+
+        right: -50px;
+    }
 }
 
 .line::after {

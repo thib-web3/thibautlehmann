@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 200px;
-
+  gap: 50px;
 }
 
 @media screen and (min-width:1024px) {
@@ -22,7 +22,7 @@
 .main {
 
   min-height: 100vh;
-  width: 500px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -32,4 +32,17 @@
 
 .gap {
   height: 40px;
+}
+
+@media screen and (min-width : 767px) {
+  .main {
+
+    min-height: 100vh;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+  }
 }

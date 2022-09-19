@@ -7,14 +7,16 @@
 .section {
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     gap: 10px;
     justify-content: flex-start;
 }
 
 .left {
-    width: 20%;
+    width: 100%;
     color: #ccc;
+    transform: translateY(8px);
 }
 
 .right {
@@ -22,9 +24,44 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 80%;
+    width: 100%;
 }
 
 .gap {
     height: 10px;
+}
+
+@media screen and (min-width:767px) {
+    .right__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .images {
+        width: 160px;
+        height: 110px;
+    }
+
+    .section {
+
+        flex-direction: row;
+
+    }
+
+    .left {
+        width: 20%;
+
+    }
+
+    .right {
+
+        width: 80%;
+    }
+
+    .gap {
+        height: 10px;
+    }
+
+
 }
