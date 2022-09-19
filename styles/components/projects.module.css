@@ -52,6 +52,10 @@
     height: 100%;
 }
 
+.images:hover {
+    opacity: 0.85;
+}
+
 .gap {
     height: 20px;
 }

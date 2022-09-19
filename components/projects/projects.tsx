@@ -26,7 +26,10 @@ const Projects: NextPage = () => {
                         <p className={styles.description}>
                             NFT minting dApp made for learning purposes on the ethereum blockchain.
                         </p>
-                        <img className={styles.images} src={'/images/brokeasses.png'} loading={"lazy"} />
+                        <a href={'https://broke-asses-nft.vercel.app/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("BrokeAsses")} >
+
+                            <img className={styles.images} src={'/images/brokeasses.png'} loading={"lazy"} />
+                        </a>
                     </div>
                     <p className={styles.stacks}>Solidity • NextJs • IPFS • TypeScript • Figma</p>
                 </div>
@@ -45,7 +48,10 @@ const Projects: NextPage = () => {
                         <p className={styles.description}>
                             NFT Marketplace, buy, sell, trade and even create your own NFTs on the Velas Blockchain. The Marketplace launched with a secret NFT collection.
                         </p>
-                        <img className={styles.images} src={'/images/sparkies.png'} loading={"lazy"} />
+                        <a href={'https://sparkies.io'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Sparkies")}>
+
+                            <img className={styles.images} src={'/images/sparkies.png'} loading={"lazy"} />
+                        </a>
                     </div>
                     <p className={styles.stacks}>Solidity • NextJs • IPFS • TypeScript • Figma</p>
                 </div>
@@ -65,8 +71,10 @@ const Projects: NextPage = () => {
                             NFT Collection of investors that lost lot of money on the crypto market.
 
                         </p>
+                        <a href={'https://cryptobrokesquad.xyz/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("CryptoBroke")} >
 
-                        <img className={styles.images} src={'/images/cryptobroke.png'} loading={"lazy"} />
+                            <img className={styles.images} src={'/images/cryptobroke.png'} loading={"lazy"} />
+                        </a>
                     </div>
                     <p className={styles.stacks}>Solidity • React • IPFS • TypeScript • Figma</p>
                 </div>
