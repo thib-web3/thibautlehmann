@@ -7,6 +7,7 @@
   align-items: center;
   padding-bottom: 200px;
   gap: 50px;
+  overflow-y: hidden;
 }
 
 @media screen and (min-width:1024px) {
