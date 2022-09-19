@@ -26,3 +26,7 @@
     opacity: 0.7;
     transition: all ease-in-out 0.1s;
 }
+
+.contact:hover {
+    text-decoration: underline;
+}
