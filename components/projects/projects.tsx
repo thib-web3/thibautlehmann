@@ -3,7 +3,8 @@
 import type { NextPage } from 'next'
 import styles from '../../styles/components/projects.module.css'
 import Image from 'next/image'
-
+import Link from 'next/link'
+import { FiArrowUpRight } from 'react-icons/fi'
 const Projects: NextPage = () => {
     return (
         <div className={styles.container}>
@@ -14,7 +15,10 @@ const Projects: NextPage = () => {
 
                 <div className={styles.left}>Sept. 2022</div>
                 <div className={styles.right}>
-                    <h3>BrokeAsses</h3>
+                    <a href={'https://broke-asses-nft.vercel.app/'} target="_blank" rel="noopener noreferrer" >
+
+                        <h3 className={styles.underline}>BrokeAsses <FiArrowUpRight /></h3>
+                    </a>
                     <div className={styles.right__container}>
 
                         <p className={styles.description}>
@@ -30,7 +34,10 @@ const Projects: NextPage = () => {
 
                 <div className={styles.left}>Apr. 2022</div>
                 <div className={styles.right}>
-                    <h3>Sparkies NFT Marketplace</h3>
+                    <a href={'https://sparkies.io'} target="_blank" rel="noopener noreferrer" >
+
+                        <h3 className={styles.underline}>Sparkies NFT Marketplace <FiArrowUpRight /></h3>
+                    </a>
                     <div className={styles.right__container}>
 
                         <p className={styles.description}>
@@ -46,12 +53,15 @@ const Projects: NextPage = () => {
 
                 <div className={styles.left}>Dec. 2021</div>
                 <div className={styles.right}>
-                    <h3>CryptoBroke</h3>
+                    <a href={'https://cryptobrokesquad.xyz/'} target="_blank" rel="noopener noreferrer" >
+
+                        <h3 className={styles.underline}>CryptoBroke <FiArrowUpRight /></h3>
+                    </a>
                     <div className={styles.right__container}>
 
                         <p className={styles.description}>
                             NFT Collection of investors that lost lot of money on the crypto market.
-                            Sold out within 6 days.
+
                         </p>
 
                         <img className={styles.images} src={'/images/cryptobroke.png'} loading={"lazy"} />
@@ -64,7 +74,7 @@ const Projects: NextPage = () => {
 
                 <div className={styles.left}>Aug. 2021</div>
                 <div className={styles.right}>
-                    <h3>BasketBall App</h3>
+                    <h3 >BasketBall App</h3>
                     <div className={styles.right__container}>
 
                         <p className={styles.description}>

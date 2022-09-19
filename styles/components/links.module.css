@@ -28,3 +28,7 @@
 .links {
     cursor: pointer;
 }
+
+.links:hover {
+    text-decoration: underline;
+}

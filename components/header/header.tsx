@@ -13,7 +13,7 @@ const Header: NextPage = () => {
             <div className={styles.right}>
                 <h1>Thibaut Lehmann</h1>
                 <p>Full-stack Blockchain Developer</p>
-                <p>thibauut.eth</p>
+                <p>Engineering student</p>
             </div>
         </div>
     )

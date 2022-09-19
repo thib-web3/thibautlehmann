@@ -51,3 +51,7 @@
 .gap {
     height: 10px;
 }
+
+.underline:hover {
+    text-decoration: underline;
+}
