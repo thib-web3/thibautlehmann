@@ -68,7 +68,7 @@ const Projects: NextPage = () => {
                     <div className={styles.right__container}>
 
                         <p className={styles.description}>
-                            NFT Collection of investors that lost lot of money on the crypto market.
+                            NFT Collection representing investors that lost lot of money on the crypto market.
 
                         </p>
                         <a href={'https://cryptobrokesquad.xyz/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("CryptoBroke")} >
