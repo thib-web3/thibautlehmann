@@ -84,7 +84,7 @@
 
     .left {
         width: 20%;
-
+        transform: translateY(0px);
     }
 
     .right {
