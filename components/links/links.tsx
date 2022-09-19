@@ -3,8 +3,9 @@ import type { NextPage } from 'next'
 import styles from '../../styles/components/links.module.css'
 import Image from 'next/image'
 import { FiArrowUpRight } from 'react-icons/fi'
-
+import splitbee from '@splitbee/web';
 const Links: NextPage = () => {
+    splitbee.init()
     return (
         <div className={styles.container}>
             <h2 className={styles.title}>
@@ -13,7 +14,7 @@ const Links: NextPage = () => {
             <div className={styles.section}>
                 <div className={styles.left}>Linkedin</div>
                 <div className={styles.right}>
-                    <a href={'https://www.linkedin.com/in/thibaut-lehmann/'} target="_blank" rel="noopener noreferrer" >
+                    <a href={'https://www.linkedin.com/in/thibaut-lehmann/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Linkedin")} >
 
                         <h3 className={styles.links}>thibaut-lehmann <FiArrowUpRight /></h3>
                     </a>
@@ -22,7 +23,7 @@ const Links: NextPage = () => {
             <div className={styles.section}>
                 <div className={styles.left}>Email</div>
                 <div className={styles.right}>
-                    <a href={'mailto:thibaut.lehmann@hotmail.com'} target="_blank" rel="noopener noreferrer" >
+                    <a href={'mailto:thibaut.lehmann@hotmail.com'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Email")} >
 
                         <h3 className={styles.links}>thibaut.lehmann@hotmail.com <FiArrowUpRight /></h3>
                     </a>
@@ -31,7 +32,7 @@ const Links: NextPage = () => {
             <div className={styles.section}>
                 <div className={styles.left}>Github</div>
                 <div className={styles.right}>
-                    <a href={'https://github.com/thib-web3'} target="_blank" rel="noopener noreferrer" >
+                    <a href={'https://github.com/thib-web3'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Github")} >
 
                         <h3 className={styles.links}>thib-web3 <FiArrowUpRight /></h3>
                     </a>
@@ -41,7 +42,7 @@ const Links: NextPage = () => {
 
                 <div className={styles.left}>Twitter</div>
                 <div className={styles.right}>
-                    <a href={'https://twitter.com/thib_web3'} target="_blank" rel="noopener noreferrer" >
+                    <a href={'https://twitter.com/thib_web3'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Twitter")}>
                         <h3 className={styles.links}>@thib_web3 <FiArrowUpRight /></h3>
                     </a>
                 </div>

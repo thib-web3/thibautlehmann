@@ -5,7 +5,9 @@ import styles from '../../styles/components/projects.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FiArrowUpRight } from 'react-icons/fi'
+import splitbee from '@splitbee/web';
 const Projects: NextPage = () => {
+    splitbee.init()
     return (
         <div className={styles.container}>
             <h2 className={styles.title}>
@@ -15,7 +17,7 @@ const Projects: NextPage = () => {
 
                 <div className={styles.left}>Sept. 2022</div>
                 <div className={styles.right}>
-                    <a href={'https://broke-asses-nft.vercel.app/'} target="_blank" rel="noopener noreferrer" >
+                    <a href={'https://broke-asses-nft.vercel.app/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("BrokeAsses")} >
 
                         <h3 className={styles.underline}>BrokeAsses <FiArrowUpRight /></h3>
                     </a>
@@ -34,7 +36,7 @@ const Projects: NextPage = () => {
 
                 <div className={styles.left}>Apr. 2022</div>
                 <div className={styles.right}>
-                    <a href={'https://sparkies.io'} target="_blank" rel="noopener noreferrer" >
+                    <a href={'https://sparkies.io'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Sparkies")}>
 
                         <h3 className={styles.underline}>Sparkies NFT Marketplace <FiArrowUpRight /></h3>
                     </a>
@@ -53,7 +55,7 @@ const Projects: NextPage = () => {
 
                 <div className={styles.left}>Dec. 2021</div>
                 <div className={styles.right}>
-                    <a href={'https://cryptobrokesquad.xyz/'} target="_blank" rel="noopener noreferrer" >
+                    <a href={'https://cryptobrokesquad.xyz/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("CryptoBroke")} >
 
                         <h3 className={styles.underline}>CryptoBroke <FiArrowUpRight /></h3>
                     </a>
