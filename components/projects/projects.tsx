@@ -25,6 +25,7 @@ const Projects: NextPage = () => {
                     <p className={styles.stacks}>Solidity • NextJs • IPFS • TypeScript • Figma</p>
                 </div>
             </div>
+            <div className={styles.gap}></div>
             <div className={styles.section}>
 
                 <div className={styles.left}>Apr. 2022</div>
@@ -33,16 +34,14 @@ const Projects: NextPage = () => {
                     <div className={styles.right__container}>
 
                         <p className={styles.description}>
-                            NFT Marketplace, buy, sell, trade and even create your own NFTs on the Velas Blockchain.
+                            NFT Marketplace, buy, sell, trade and even create your own NFTs on the Velas Blockchain. The Marketplace launched with a secret NFT collection.
                         </p>
                         <img className={styles.images} src={'/images/sparkies.png'} loading={"lazy"} />
                     </div>
-                    <p className={styles.description}>
-                        The Marketplace launched with a secret NFT collection.
-                    </p>
                     <p className={styles.stacks}>Solidity • NextJs • IPFS • TypeScript • Figma</p>
                 </div>
             </div>
+            <div className={styles.gap}></div>
             <div className={styles.section}>
 
                 <div className={styles.left}>Dec. 2021</div>
@@ -60,6 +59,7 @@ const Projects: NextPage = () => {
                     <p className={styles.stacks}>Solidity • React • IPFS • TypeScript • Figma</p>
                 </div>
             </div>
+            <div className={styles.gap}></div>
             <div className={styles.section}>
 
                 <div className={styles.left}>Aug. 2021</div>

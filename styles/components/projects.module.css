@@ -34,7 +34,8 @@
     color: #848484;
     font-weight: 500;
     font-size: 14px;
-    line-height: 21px
+    line-height: 21px;
+    padding-top: 5px
 }
 
 /* 
@@ -45,4 +46,8 @@
 .images {
     width: 160px;
     height: 110px;
+}
+
+.gap {
+    height: 10px;
 }

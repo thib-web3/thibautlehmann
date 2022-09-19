@@ -30,19 +30,6 @@
 
 }
 
-/* 
-@media screen and (min-width:1024px) {
-
-
-  .main {
-    min-height: 100vh;
-    padding: 0;
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-
-
-  }
-
-
-} */
+.gap {
+  height: 40px;
+}

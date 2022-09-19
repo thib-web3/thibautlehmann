@@ -23,6 +23,7 @@ const Skills: NextPage = () => {
                     <p className={styles.description}>
                         React / React native • NodeJs • Git • Figma
                     </p>
+                    <div className={styles.gap}></div>
                     <h3>Soft skills</h3>
                     <p className={styles.description}>
                         Project managment •  Entrepreneurship

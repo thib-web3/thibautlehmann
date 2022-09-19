@@ -20,6 +20,7 @@ const Education: NextPage = () => {
                     </p>
                 </div>
             </div>
+            <div className={styles.gap}></div>
             <div className={styles.section}>
 
                 <div className={styles.left}>2020 - 2021</div>
@@ -30,6 +31,7 @@ const Education: NextPage = () => {
                     </p>
                 </div>
             </div>
+            <div className={styles.gap}></div>
             <div className={styles.section}>
 
                 <div className={styles.left}>2016 - 2019</div>
