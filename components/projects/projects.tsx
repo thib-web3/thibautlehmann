@@ -45,7 +45,7 @@ const Projects: NextPage = () => {
                     </a>
                     <div className={styles.right__container}>
                         <p className={styles.description}>
-                            <p className={styles.insight}>3.8k users • 76.3k Nfts</p>
+                            <p className={styles.insight}>3.8k users • 76.3k NFTs</p>
                             NFT Marketplace, buy, sell, trade and even create your own NFTs on the Velas Blockchain. The Marketplace launched with a secret NFT collection.
                         </p>
                         <a href={'https://sparkies.io'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Sparkies")}>
