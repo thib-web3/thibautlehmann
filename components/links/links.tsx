@@ -8,7 +8,29 @@ const Links: NextPage = () => {
     splitbee.init()
     return (
         <div className={styles.container}>
-            <h2 className={styles.title}>
+            <div className={styles.box}>
+
+                <div className={styles.social}>Email:</div>
+                <a href={'mailto:thibaut.lehmann@hotmail.com'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Email")} >
+
+                    <h3 className={styles.links}>thibaut.lehmann@hotmail.com <FiArrowUpRight /></h3>
+                </a>
+                <div className={styles.social}>Linkedin:</div>
+                <a href={'https://www.linkedin.com/in/thibaut-lehmann/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Linkedin")} >
+
+                    <h3 className={styles.links}>thibaut-lehmann <FiArrowUpRight /></h3>
+                </a>
+            </div>
+
+
+
+            <div className={styles.social}>Github:</div>
+            <a href={'https://github.com/thib-web3'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Github")} >
+
+                <h3 className={`${styles.links} ${styles.link3}`}>thib-web3 <FiArrowUpRight /></h3>
+            </a>
+
+            {/* <h2 className={styles.title}>
                 Links
             </h2>
             <div className={styles.section}>
@@ -46,7 +68,7 @@ const Links: NextPage = () => {
                         <h3 className={styles.links}>@thib_web3 <FiArrowUpRight /></h3>
                     </a>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )

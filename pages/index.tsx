@@ -27,22 +27,22 @@ const Home: NextPage = () => {
 
         <Header />
         <div className={styles.gap}></div>
+
+        <Links />
+        <div className={styles.gap}></div>
         <About />
+        <div className={styles.gap}></div>
+        <Skills />
+        <div className={styles.gap}></div>
+
+
+        <Projects />
         <div className={styles.gap}></div>
 
         <Education />
         <div className={styles.gap}></div>
 
-        <Projects />
-        <div className={styles.gap}></div>
-
-        <Skills />
-        <div className={styles.gap}></div>
-
         <Hobbies />
-        <div className={styles.gap}></div>
-
-        <Links />
 
 
         <div className={`${lines.line} ${lines.line1}`}></div>
