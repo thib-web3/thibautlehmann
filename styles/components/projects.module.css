@@ -57,11 +57,15 @@
 }
 
 .gap {
-    height: 20px;
+    height: 40px;
 }
 
 .underline:hover {
     text-decoration: underline;
+}
+
+.underline {
+    margin-bottom: 5px;
 }
 
 .gap__mobile {
@@ -97,7 +101,7 @@
     }
 
     .gap {
-        height: 10px;
+        height: 40px;
     }
 
     .gap__mobile {
@@ -112,3 +116,8 @@
         height: 110px;
     }
 } */
+
+.insight {
+    font-weight: 500;
+    color: #fff;
+}

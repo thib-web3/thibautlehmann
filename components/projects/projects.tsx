@@ -44,8 +44,8 @@ const Projects: NextPage = () => {
                         <h3 className={styles.underline}>Sparkies NFT Marketplace <FiArrowUpRight /></h3>
                     </a>
                     <div className={styles.right__container}>
-
                         <p className={styles.description}>
+                            <p className={styles.insight}>3.8k users • 76.3k Nfts</p>
                             NFT Marketplace, buy, sell, trade and even create your own NFTs on the Velas Blockchain. The Marketplace launched with a secret NFT collection.
                         </p>
                         <a href={'https://sparkies.io'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Sparkies")}>
@@ -68,6 +68,7 @@ const Projects: NextPage = () => {
                     <div className={styles.right__container}>
 
                         <p className={styles.description}>
+                            <p className={styles.insight}>666 NFTs sold out in 6 days</p>
                             NFT Collection representing investors that lost lot of money on the crypto market.
 
                         </p>
