@@ -10,9 +10,8 @@ const Navbar: NextPage = () => {
     return (
         <div className={styles.container}>
 
-            <a href="https://www.linkedin.com/in/thibaut-lehmann/" target="_blank" rel="noreferrer" className={styles.contact}>
-                Contact me <FiArrowUpRight />
-            </a>
+            <Image width={17} height={27} src={'/images/ethereum.png'} loading={"lazy"} />
+
             <div className={styles.buttons}>
                 <ConnectWallet />
             </div>
