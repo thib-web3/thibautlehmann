@@ -4,3 +4,48 @@
 
 
 }
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.left {
+    width: 100%;
+    color: #ccc;
+    transform: translateY(8px);
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+
+@media screen and (min-width:767px) {
+
+    .section {
+
+        flex-direction: row;
+
+    }
+
+    .left {
+        width: 20%;
+        transform: translateY(0px);
+    }
+
+    .right {
+
+        width: 80%;
+    }
+
+
+}
