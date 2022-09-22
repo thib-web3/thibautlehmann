@@ -15,7 +15,7 @@ const Education: NextPage = () => {
                 <div className={styles.right}>
                     <h3>ECAM Lasalle</h3>
                     <p className={styles.description}>
-                        Generalist engineering school,
+                        Generalist engineering school.<br></br>
                         Revelant courses : Computer science, Project managment, Mechanic and Electronic.
                     </p>
                 </div>
