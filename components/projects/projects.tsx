@@ -57,11 +57,11 @@ const Projects: NextPage = () => {
                         </a>
                     </div>
                     <p className={`${styles.description} ${styles.description2}`}>
-                        Within a team of 4 members, my missions were:
+                        As part of a 4 member team, my missions were:
                         <br></br>• UI / UX design
-                        <br></br>• Frontend developpement
+                        <br></br>• Frontend development
                         <br></br>• Smart contracts integration
-                        <br></br>• Community managment (twitter, telegram and discord)
+                        <br></br>• Community management (twitter, telegram and discord)
                     </p>
                     <p className={styles.stacks}>Solidity • NextJs • IPFS • TypeScript • Figma</p>
                 </div>
@@ -79,7 +79,7 @@ const Projects: NextPage = () => {
 
                         <p className={styles.description}>
                             <p className={styles.insight}>666 NFTs sold out in 6 days</p>
-                            NFT Collection representing investors that lost lot of money on the crypto market.
+                            NFT Collection representing investors who lost a lot of money in the crypto-currency market.
                             This collection is based on the Velas Blockchain.
 
 
@@ -92,9 +92,9 @@ const Projects: NextPage = () => {
                     <p className={`${styles.description} ${styles.description2}`}>
                         In a team of 3 members, my tasks were:
                         <br></br>• UI / UX design
-                        <br></br>• Frontend developpement
+                        <br></br>• Frontend development
                         <br></br>• Smart contracts integration
-                        <br></br>• Community managment (twitter, telegram and discord)
+                        <br></br>• Community management (twitter, telegram and discord)
                     </p>
                     <p className={styles.stacks}>Solidity • React • IPFS • TypeScript • Figma</p>
                 </div>
@@ -124,7 +124,7 @@ const Projects: NextPage = () => {
                     </div>
                     <p className={styles.description}>
 
-                        Within a team of two, and one freelancer, my job was to integrate the UI and UX design into code.
+                        As part of a two-person team, and a freelancer, my job was the frontend development, I had to integrate the UI and UX design into code.
                     </p>
                     <p className={styles.stacks}>React Native • JavaScript • Figma</p>
                 </div>

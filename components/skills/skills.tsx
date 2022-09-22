@@ -29,7 +29,7 @@ const Skills: NextPage = () => {
                         Project managment •  Entrepreneurship
                     </p>
                     <p className={styles.description}>
-                        Communication •  Creative
+                        Communication •  Creativity
                     </p>
 
                 </div>
