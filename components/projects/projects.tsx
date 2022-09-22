@@ -24,7 +24,7 @@ const Projects: NextPage = () => {
                     <div className={styles.right__container}>
 
                         <p className={styles.description}>
-                            NFT minting dApp made for learning purposes on the ethereum blockchain. <br></br>Solo project, in order to apply my new skills in solidity.
+                            NFT minting dApp made for learning purposes on the ethereum blockchain. <br></br>Solo project, in order to apply my recent skills in solidity.
                         </p>
                         <a href={'https://broke-asses-nft.vercel.app/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("BrokeAsses")} >
 
@@ -90,7 +90,7 @@ const Projects: NextPage = () => {
                         </a>
                     </div>
                     <p className={`${styles.description} ${styles.description2}`}>
-                        In a team of 3 members, my tasks were :
+                        In a team of 3 members, my tasks were:
                         <br></br>• UI / UX design
                         <br></br>• Frontend developpement
                         <br></br>• Smart contracts integration
@@ -104,17 +104,28 @@ const Projects: NextPage = () => {
 
                 <div className={styles.left}>Aug. 2021</div>
                 <div className={styles.right}>
-                    <h3 >BasketBall App</h3>
+                    <a href={'https://cartercoachingapp.com/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("CryptoBroke")} >
+
+                        <h3 className={styles.underline}>BasketBall App <FiArrowUpRight /></h3>
+                    </a>
                     <div className={styles.right__container}>
 
                         <p className={styles.description}>
                             BasketBall application for a coach. Students can book a session, watch tutorials and be tracked by the coach.
                             <br></br>
-                            In a team of three, and one freelancer, my job was to integrate the UI and UX design into code.
-                        </p>
+                            Due to a lack of time for studies, the project was taken over by a company.
 
-                        <img className={styles.images} src={'/images/basketballApp.png'} loading={"lazy"} />
+                        </p>
+                        <a href={'https://cartercoachingapp.com/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("CryptoBroke")} >
+                            <img className={styles.images} src={'/images/basketballApp.png'} loading={"lazy"} />
+
+                        </a>
+
                     </div>
+                    <p className={styles.description}>
+
+                        Within a team of two, and one freelancer, my job was to integrate the UI and UX design into code.
+                    </p>
                     <p className={styles.stacks}>React Native • JavaScript • Figma</p>
                 </div>
             </div>
