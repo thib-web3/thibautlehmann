@@ -15,8 +15,8 @@ const Education: NextPage = () => {
                 <div className={styles.right}>
                     <h3>ECAM Lasalle</h3>
                     <p className={styles.description}>
-                        International generalist engineering school,
-                        learning computer science, project managment, mechanic and electronic.
+                        Generalist engineering school,
+                        Revelant courses : Computer science, Project managment, Mechanic and Electronic.
                     </p>
                 </div>
             </div>
@@ -27,7 +27,7 @@ const Education: NextPage = () => {
                 <div className={styles.right}>
                     <h3>Erasmus Exchange</h3>
                     <p className={styles.description}>
-                        International studies in Lithuania following a general engineering curriculum in english.
+                        International studies in Lithuania following a general engineering curriculum in English.
                     </p>
                 </div>
             </div>
