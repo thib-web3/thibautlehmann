@@ -72,7 +72,23 @@
     height: 5px;
 }
 
+.description2 {
+    margin-top: 8px;
+}
+
+.description3 {
+    display: none;
+}
+
 @media screen and (min-width:767px) {
+    .description2 {
+        margin-top: 0px;
+    }
+
+    .description3 {
+        display: flex;
+    }
+
     .right__container {
         display: flex;
         flex-direction: row;

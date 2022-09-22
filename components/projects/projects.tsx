@@ -24,7 +24,7 @@ const Projects: NextPage = () => {
                     <div className={styles.right__container}>
 
                         <p className={styles.description}>
-                            NFT minting dApp made for learning purposes on the ethereum blockchain.
+                            NFT minting dApp made for learning purposes on the ethereum blockchain. <br></br>Solo project, in order to apply my new skills in solidity.
                         </p>
                         <a href={'https://broke-asses-nft.vercel.app/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("BrokeAsses")} >
 
@@ -46,13 +46,23 @@ const Projects: NextPage = () => {
                     <div className={styles.right__container}>
                         <p className={styles.description}>
                             <p className={styles.insight}>3.8k users • 76.3k NFTs</p>
-                            NFT Marketplace, buy, sell, trade and even create your own NFTs on the Velas Blockchain. The Marketplace launched with a secret NFT collection.
+                            NFT Marketplace, buy, sell, trade and even create your own NFTs on the Velas Blockchain.
+                            The Marketplace launched with a secret NFT collection (500 NFTs sold).
+
+
                         </p>
                         <a href={'https://sparkies.io'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Sparkies")}>
 
                             <img className={styles.images} src={'/images/sparkies.png'} loading={"lazy"} />
                         </a>
                     </div>
+                    <p className={`${styles.description} ${styles.description2}`}>
+                        Within a team of 4 members, my missions were:
+                        <br></br>• UI / UX design
+                        <br></br>• Frontend developpement
+                        <br></br>• Smart contracts integration
+                        <br></br>• Community managment (twitter, telegram and discord)
+                    </p>
                     <p className={styles.stacks}>Solidity • NextJs • IPFS • TypeScript • Figma</p>
                 </div>
             </div>
@@ -70,6 +80,8 @@ const Projects: NextPage = () => {
                         <p className={styles.description}>
                             <p className={styles.insight}>666 NFTs sold out in 6 days</p>
                             NFT Collection representing investors that lost lot of money on the crypto market.
+                            This collection is based on the Velas Blockchain.
+
 
                         </p>
                         <a href={'https://cryptobrokesquad.xyz/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("CryptoBroke")} >
@@ -77,6 +89,13 @@ const Projects: NextPage = () => {
                             <img className={styles.images} src={'/images/cryptobroke.png'} loading={"lazy"} />
                         </a>
                     </div>
+                    <p className={`${styles.description} ${styles.description2}`}>
+                        In a team of 3 members, my tasks were :
+                        <br></br>• UI / UX design
+                        <br></br>• Frontend developpement
+                        <br></br>• Smart contracts integration
+                        <br></br>• Community managment (twitter, telegram and discord)
+                    </p>
                     <p className={styles.stacks}>Solidity • React • IPFS • TypeScript • Figma</p>
                 </div>
             </div>
@@ -90,6 +109,8 @@ const Projects: NextPage = () => {
 
                         <p className={styles.description}>
                             BasketBall application for a coach. Students can book a session, watch tutorials and be tracked by the coach.
+                            <br></br>
+                            In a team of three, and one freelancer, my job was to integrate the UI and UX design into code.
                         </p>
 
                         <img className={styles.images} src={'/images/basketballApp.png'} loading={"lazy"} />

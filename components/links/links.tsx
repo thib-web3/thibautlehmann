@@ -23,12 +23,14 @@ const Links: NextPage = () => {
             </div>
 
 
+            <div className={styles.box}>
 
-            <div className={styles.social}>Github:</div>
-            <a href={'https://github.com/thib-web3'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Github")} >
+                <div className={styles.social}>Github:</div>
+                <a href={'https://github.com/thib-web3'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Github")} >
 
-                <h3 className={`${styles.links} ${styles.link3}`}>thib-web3 <FiArrowUpRight /></h3>
-            </a>
+                    <h3 className={styles.links}>thib-web3 <FiArrowUpRight /></h3>
+                </a>
+            </div>
 
             {/* <h2 className={styles.title}>
                 Links

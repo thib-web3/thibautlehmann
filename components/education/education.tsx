@@ -31,7 +31,7 @@ const Education: NextPage = () => {
                     </p>
                 </div>
             </div>
-            <div className={styles.gap}></div>
+            {/* <div className={styles.gap}></div>
             <div className={styles.section}>
 
                 <div className={styles.left}>2016 - 2019</div>
@@ -41,7 +41,7 @@ const Education: NextPage = () => {
                         High school diploma (BAC scientific), with the option : science of the engineer.
                     </p>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )
