@@ -61,7 +61,7 @@ const ConnectWallet: NextPage = () => {
                                 if (!connected) {
                                     return (
                                         <button onClick={openConnectModal} type="button" className={styles.container}>
-                                            <p className={styles.text}>Connect Wallet</p>
+                                            <p className={styles.text}>Hire me</p>
                                         </button>
                                     );
                                 }

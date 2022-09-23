@@ -21,13 +21,13 @@
 }
 
 .image {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 @media screen and (min-width : 767px) {
     .image {
-        width: 130px;
-        height: 130px;
+        width: 20%;
+        height: 100%;
     }
 }

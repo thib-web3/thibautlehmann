@@ -35,7 +35,7 @@
 
 
 .stacks {
-    color: #848484;
+    color: #868686;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
@@ -81,24 +81,22 @@
 }
 
 @media screen and (min-width:767px) {
-    .description2 {
-        margin-top: 0px;
-    }
+
 
     .description3 {
         display: flex;
     }
 
-    .right__container {
+    /* .right__container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
+    } */
 
-    .images {
+    /* .images {
         width: 160px;
         height: 110px;
-    }
+    } */
 
     .section {
 
@@ -136,4 +134,5 @@
 .insight {
     font-weight: 500;
     color: #fff;
+    text-decoration: underline;
 }

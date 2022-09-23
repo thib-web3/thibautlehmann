@@ -24,13 +24,17 @@ const Projects: NextPage = () => {
                     <div className={styles.right__container}>
 
                         <p className={styles.description}>
-                            NFT minting dApp made for learning purposes on the ethereum blockchain. <br></br>Solo project, in order to apply my recent skills in solidity.
+                            NFT minting dApp made for learning purposes on the ethereum blockchain.
                         </p>
                         <a href={'https://broke-asses-nft.vercel.app/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("BrokeAsses")} >
 
                             <img className={styles.images} src={'/images/brokeasses.png'} loading={"lazy"} />
                         </a>
                     </div>
+                    <p className={`${styles.description} ${styles.description2}`}>
+
+                        Solo project, I designed, coded the frontend, smart contracts and the interaction with the blockchain. The goal was to test my recent skills in solidity.
+                    </p>
                     <p className={styles.stacks}>Solidity • NextJs • IPFS • TypeScript • Figma</p>
                 </div>
             </div>
@@ -45,7 +49,7 @@ const Projects: NextPage = () => {
                     </a>
                     <div className={styles.right__container}>
                         <p className={styles.description}>
-                            <p className={styles.insight}>3.8k users • 76.3k NFTs</p>
+                            <p className={styles.insight}>+3.8k users • +76.3k NFTs • +20k$ trading volume</p>
                             NFT Marketplace, buy, sell, trade and even create your own NFTs on the Velas Blockchain.
                             The Marketplace launched with a secret NFT collection (500 NFTs sold).
 
@@ -57,7 +61,7 @@ const Projects: NextPage = () => {
                         </a>
                     </div>
                     <p className={`${styles.description} ${styles.description2}`}>
-                        As part of a 4 member team, my missions were:
+                        As part of a 4 members team, my missions were:
                         <br></br>• UI / UX design
                         <br></br>• Frontend development
                         <br></br>• Smart contracts integration
@@ -122,7 +126,7 @@ const Projects: NextPage = () => {
                         </a>
 
                     </div>
-                    <p className={styles.description}>
+                    <p className={`${styles.description} ${styles.description2}`}>
 
                         As part of a two-person team, and a freelancer, my job was the frontend development, I had to integrate the UI and UX design into code.
                     </p>

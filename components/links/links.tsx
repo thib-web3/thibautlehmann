@@ -15,6 +15,8 @@ const Links: NextPage = () => {
 
                     <h3 className={styles.links}>thibaut.lehmann@hotmail.com <FiArrowUpRight /></h3>
                 </a>
+            </div>
+            <div className={styles.box}>
                 <div className={styles.social}>Linkedin:</div>
                 <a href={'https://www.linkedin.com/in/thibaut-lehmann/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Linkedin")} >
 
