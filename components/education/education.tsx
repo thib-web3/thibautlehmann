@@ -27,7 +27,7 @@ const Education: NextPage = () => {
                 <div className={styles.right}>
                     <h3>Erasmus Exchange</h3>
                     <p className={styles.description}>
-                        International studies in Lithuania following a general engineering curriculum in English.
+                        International studies in Lithuania following a generalist engineering curriculum in English.
                     </p>
                 </div>
             </div>
