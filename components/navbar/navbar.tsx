@@ -15,7 +15,7 @@ const Navbar: NextPage = () => {
 
             <div className={styles.buttons}>
                 {/* <ConnectWallet /> */}
-                <a href={'mailto:thibaut.lehmann@hotmail.com'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Email")} >
+                <a href={'mailto:contact@thibautlehmann.dev'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Email")} >
 
                     <button type="button" className={wallet.container}>
                         <p className={wallet.text}>Hire me</p>
