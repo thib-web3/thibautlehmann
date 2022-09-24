@@ -18,16 +18,23 @@
 .right {
 
     width: 100%;
+    transform: translateX(-10px);
 }
 
 .image {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
 }
 
 @media screen and (min-width : 767px) {
     .image {
-        width: 20%;
+        width: 23%;
         height: 100%;
+    }
+
+    .right {
+
+        width: 100%;
+        transform: translateX(-3%);
     }
 }
