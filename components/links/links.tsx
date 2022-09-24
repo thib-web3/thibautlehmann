@@ -13,7 +13,7 @@ const Links: NextPage = () => {
                 <div className={styles.social}>Email:</div>
                 <a href={'mailto:contact@thibautlehmann.dev'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Email")} >
 
-                    <h3 className={styles.links}>contact @thibautlehmann.dev <FiArrowUpRight /></h3>
+                    <h3 className={styles.links}>contact@thibautlehmann.dev <FiArrowUpRight /></h3>
                 </a>
             </div>
             <div className={styles.box}>
