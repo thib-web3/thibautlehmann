@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
 import styles from '../../styles/components/navbar.module.css'
+import wallet from '../../styles/components/connectWallet.module.css'
 import { BsLinkedin } from 'react-icons/bs'
 import ConnectWallet from './connectWallet'
 import { FiArrowUpRight } from 'react-icons/fi'
@@ -13,7 +14,13 @@ const Navbar: NextPage = () => {
             <Image width={17} height={27} src={'/images/ethereum.png'} loading={"lazy"} />
 
             <div className={styles.buttons}>
-                <ConnectWallet />
+                {/* <ConnectWallet /> */}
+                <a href={'mailto:thibaut.lehmann@hotmail.com'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("Email")} >
+
+                    <button type="button" className={wallet.container}>
+                        <p className={wallet.text}>Hire me</p>
+                    </button>
+                </a>
             </div>
         </div>
     )
