@@ -1,7 +1,7 @@
 
 ## My CV / Portfolio
 
-link : [I'm an inline-style link](https://thibautlehmann.dev/) 
+link : [thibautlehmann.dev](https://thibautlehmann.dev/) 
 
 🛠️ STACKS 🛠️
 - NextJs
