@@ -26,7 +26,7 @@ const Skills: NextPage = () => {
                     <div className={styles.gap}></div>
                     <h3>Soft skills</h3>
                     <p className={styles.description}>
-                        Project managment •  Entrepreneurship
+                        Project management •  Entrepreneurship
                     </p>
                     <p className={styles.description}>
                         Communication •  Creativity • Agile method

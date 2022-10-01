@@ -14,7 +14,7 @@ const About: NextPage = () => {
                 <div className={styles.left}></div>
                 <div className={styles.right}>
                     <p className={styles.description}>
-                        I’m Thibaut, a french 20 years old, creative developer passionated about blockchain.
+                        I’m Thibaut, a french 20 years old, creative developer with a passion for blockchain.
                     </p>
                     <p className={styles.description}>
                         With two years of experience in web2 and one year in web3.</p>

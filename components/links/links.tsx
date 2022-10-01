@@ -33,6 +33,18 @@ const Links: NextPage = () => {
                     <h3 className={styles.links}>thib-web3 <FiArrowUpRight /></h3>
                 </a>
             </div>
+            <div className={styles.box}>
+
+                <div className={styles.social}>CV:</div>
+                <a href="./CV_Thibaut_Lehmann.pdf" download>
+                    <h3 className={styles.links}>Download CV <FiArrowUpRight /></h3>
+
+
+                </a>
+
+            </div>
+
+
 
             {/* <h2 className={styles.title}>
                 Links
