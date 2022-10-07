@@ -15,13 +15,13 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Thibaut Lehmann</title>
+        <title>Thibaut LEHMANN</title>
         <meta name="description" content="Thibaut Lehmann" />
         <link rel="icon" href="/favicon.ico" />
 
         <meta property='og:title' content='Thibaut Lehmann' />
-        <meta property='og:image' content='//thibautlehmann.dev/images/sparkies.png' />
-        <meta property='og:description' content='Portfolio of Thibaut LEHMANN - Full Stack Blockchain Engineer student' />
+        <meta property='og:image' content='//thibautlehmann.dev/images/metatag.png' />
+        <meta property='og:description' content='Portfolio of Thibaut LEHMANN - Full Stack Blockchain Engineer Student' />
         <meta property='og:url' content='//thibautlehmann.dev/' />
 
       </Head>
