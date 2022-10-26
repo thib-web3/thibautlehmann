@@ -18,7 +18,7 @@ const Skills: NextPage = () => {
                         Solidity • HardHat • IPFS • ethers.js
                     </p>
                     <p className={styles.description}>
-                        web3.js • NextJs • TypeScript • JavaScript
+                        web3.js • NextJs • TypeScript • Firebase
                     </p>
                     <p className={styles.description}>
                         React / React native • NodeJs • Git • Figma
