@@ -15,6 +15,37 @@ const Projects: NextPage = () => {
             </h2>
             <div className={styles.section}>
 
+                <div className={styles.left}>Now</div>
+                <div className={styles.right}>
+                    <a href={'https://t.me/thibot_web3'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("TrackLeaders")} >
+
+                        <h3 className={styles.underline}>TrackLeaders <FiArrowUpRight /></h3>
+                    </a>
+                    <div className={styles.right__container}>
+
+                        <p className={styles.description}>
+                            <p className={styles.insight}>Telegram: +1,2k followers • Tiktok: +150K views • +10k$ trading volume</p>
+                            Tracking crypto traders (whales) and copying their trades.
+                            <br></br>
+                            The final goal is to front-run these traders.
+                        </p>
+                        <a href={'https://t.me/thibot_web3'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("BrokeAsses")} >
+
+                            <img className={styles.images} src={'/images/trackleaders.png'} loading={"lazy"} />
+                        </a>
+                    </div>
+                    <p className={`${styles.description} ${styles.description2}`}>
+                        • Tracking traders on CEX (scraping) <br></br>
+                        • Copy trading on CEX using API<br></br>
+                        • Tracking on ethereum<br></br>
+                        • Copy trading using uniswap v3 smart contracts (swap function)
+                    </p>
+                    <p className={styles.stacks}>Ethers • Typescript • Firebase</p>
+                </div>
+            </div>
+            <div className={styles.gap}></div>
+            <div className={styles.section}>
+
                 <div className={styles.left}>Sept. 2022</div>
                 <div className={styles.right}>
                     <a href={'https://broke-asses-nft.vercel.app/'} target="_blank" rel="noopener noreferrer" onClick={() => splitbee.track("BrokeAsses")} >
