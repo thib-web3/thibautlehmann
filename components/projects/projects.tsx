@@ -24,7 +24,7 @@ const Projects: NextPage = () => {
                     <div className={styles.right__container}>
 
                         <p className={styles.description}>
-                            <p className={styles.insight}>Telegram: +1,2k followers • Tiktok: +150K views • +10k$ trading volume</p>
+                            <p className={styles.insight}>Telegram: +1.2k followers • Tiktok: +150K views • +10k$ trading volume</p>
                             Tracking crypto traders (whales) and copying their trades.
                             <br></br>
                             The final goal is to front-run these traders.
