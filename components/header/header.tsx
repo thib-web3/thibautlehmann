@@ -8,7 +8,7 @@ const Header: NextPage = () => {
         <div className={styles.container}>
 
 
-            <img className={styles.image} src={'/images/thibaut-lehmann.png'} loading={"lazy"} />
+            <img className={styles.image} src={'/images/round.png'} loading={"lazy"} />
 
             <div className={styles.right}>
                 <h1>Thibaut Lehmann</h1>
